@@ -1,0 +1,76 @@
+/* ----------- Header ---------- */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: #ff0004;
+    text-shadow: 0 0 25px #ff0004, 0 0 50px #ff0004;
+    transform: scale(1.1);
+}
+span{
+    color: #ff0004;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover, .navbar a:active{
+    color: #ff0004;
+    border-bottom: 3px solid #ff0004;
+}
+
+/* --------Services Section-------- */
+.services{
+    width: 30%;
+    height: auto;
+    margin: 200px auto;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px antiquewhite;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+.services h2{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 60px;
+    color: #ff0004;
+    font-weight: 700;
+}
+.services-list{
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+@media (max-width : 900px) {
+    .home, .about, .contact-form, .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home{
+        padding-bottom: 30px;
+    }
+}

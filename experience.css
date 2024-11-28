@@ -1,0 +1,71 @@
+/* ----------- Header ---------- */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: #ff0004;
+    text-shadow: 0 0 25px #ff0004, 0 0 50px #ff0004;
+    transform: scale(1.1);
+}
+span{
+    color: #ff0004;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover, .navbar a:active{
+    color: #ff0004;
+    border-bottom: 3px solid #ff0004;
+}
+.experience{
+    width: 30%;
+    height: auto;
+    margin: 200px auto;
+    border: 1px solid transparent;
+    background-color: burlywood;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.experience h2{
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff0004;
+}
+.experience p{
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: brown;
+}
+
+@media (max-width : 900px) {
+    .home, .about, .contact-form, .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home{
+        padding-bottom: 30px;
+    }
+}
