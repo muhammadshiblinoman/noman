@@ -66,9 +66,7 @@ span{
 
 /* ------ Education Section ----- */
 .education{
-    width: 40%;
-    height: auto;
-    background-color: black;
+    background-color: antiquewhite;
     color: white;
     margin: 200px auto;
     border: 1px solid transparent;
@@ -81,26 +79,47 @@ span{
     color: #ff0004;
     text-shadow: 0 0 15px #ff0004;
     margin-left: 20px;
+    text-align: center;
+}
+.hsc{
+    height: auto;
+    width: 40%;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 .hsc h3{
     color: #ed0509;
     font-size: 25px;
     font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .hsc p{
     font-size: 20px;
     font-weight: 700;
     color: wheat;
+    margin-left: 20px;
+}
+.ssc{
+    height: auto;
+    width: 40%;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 .ssc h3{
     color: #ed0509;
     font-size: 25px;
     font-weight: 700;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 .ssc p{
     font-size: 20px;
     font-weight: 700;
     color: burlywood;
+    margin-left: 20px;
 }
 
 @media (max-width : 900px) {
