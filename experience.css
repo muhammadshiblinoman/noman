@@ -39,7 +39,7 @@ span{
     border-bottom: 3px solid #ff0004;
 }
 .experience{
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: 200px auto;
     border: 1px solid transparent;
@@ -52,9 +52,16 @@ span{
     font-size: 40px;
     font-weight: 700;
     color: #ff0004;
+    text-align: center;
+}
+.experience h4{
+    padding-left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #06dd06;
 }
 .experience p{
-    padding-left: 10px;
+    padding-left: 100px;
     font-size: 25px;
     font-weight: 500;
     color: brown;
